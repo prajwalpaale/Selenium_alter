@@ -28,7 +28,7 @@ public void openApp()
 	driver=new ChromeDriver(opt);
 	driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	driver.get(base_url);
-
+	
 }
 @AfterMethod
 public void closeApp(ITestResult result) throws IOException
